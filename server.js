@@ -32,15 +32,15 @@ hbs.registerHelper('screamIt', (text) => {
   return text.toUpperCase();
 });
 
-app.get('/', (req, res) => {
-  res.send('<h1>Hello EXpress!</h1>');
-  res.send({
-    name: 'Luke',
-    likes: [
-      'Biking',
-      'Cites'
-    ]
-  });
+// app.get('/', (req, res) => {
+//   res.send('<h1>Hello EXpress!</h1>');
+//   res.send({
+//     name: 'Luke',
+//     likes: [
+//       'Biking',
+//       'Cites'
+//     ]
+//   });
 
 res.render('home.hbs', {
     pageTitle: 'Home Page',
