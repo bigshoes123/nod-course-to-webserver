@@ -32,7 +32,7 @@ hbs.registerHelper('screamIt', (text) => {
   return text.toUpperCase();
 });
 
-// app.get('/', (req, res) => {
+ app.get('/', (req, res) => {
 //   res.send('<h1>Hello EXpress!</h1>');
 //   res.send({
 //     name: 'Luke',
@@ -40,7 +40,7 @@ hbs.registerHelper('screamIt', (text) => {
 //       'Biking',
 //       'Cites'
 //     ]
-//   });
+  // });
 
 res.render('home.hbs', {
     pageTitle: 'Home Page',
